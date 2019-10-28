@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+.prlImg1, .prlImg2, .prlImg3 {
+    position: relative;
+    opacity: 0.85;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.prlImg1 {
+    background-image: url('https://picsum.photos/1702/2000');
+    min-height: 100%;
+}
+.prlImg2 {
+    background-image: url('https://picsum.photos/2701/1000');
+    min-height: 400px;
+}
+.prlImg3 {
+    background-image: url('https://picsum.photos/2600/800');
+    min-height: 400px;
+}
+section {
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+.border {
+    position: absolute;
+    top:50%;
+    right: 50%;
+   text-align: center;
+   padding: 30px;
+    background: #0e1011;
+    color: #ddd;
+    font-size: 3em;
+    letter-spacing: 8px;
+    opacity: .8;
+    mix-blend-mode: multiply;
+}

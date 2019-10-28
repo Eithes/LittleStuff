@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #ffeaa7;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 90%;  
+    margin: 20% auto;;  
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    flex: 0 0 30%;
+    min-width: 200px;
+    height: 300px;
+    padding: 20px;
+
+    /*3d effect*/    
+      -webkit-perspective: 1000;
+    perspective: 1000;
+      -moz-transform: perspective(1000px);
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d; 
+    transform-style: preserve-3d;
+}
+
+.cardItem {
+    background-color: #00b894;
+    width: 100%;
+    height: 100%;
+    transition: transform linear 1s;
+    transform: rotateX(10deg);
+}
+
+.cardItem img{
+    width: 100%;
+    height: 100%;
+}
